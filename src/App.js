@@ -1,9 +1,11 @@
 import React from 'react'
 
+import './style.scss'
+
 export default function App() {
     return (
-        <div>
-            hey from app
+        <div className="App">
+            <h1>hey from app</h1>
         </div>
     )
 }
